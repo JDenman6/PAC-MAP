@@ -5,7 +5,7 @@
   width: 1000px;
 }
 
-tr {
+tr.map-row {
   margin-top: 5px;
   height: 145px;
 }
