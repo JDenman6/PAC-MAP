@@ -6,6 +6,7 @@
 }
 
 #test {
+  height: 142px;
   width:  190px;
   display: block;
 }
@@ -16,20 +17,37 @@
 }
 
 #test-pond {
+  height: 142px;
   width: 250px;
 }
 
 #pond {
+  height: 142px;
   width:  190px;
   display: block;
 }
 
 #pond:hover {
   background-image: url("http://www.pleasantacres.com/wp-content/uploads/2015/08/gallery-06.jpg");
-  background-size: cover;  
+  background-size: cover;
+}
+
+.hoverable {
+  margin-top: 4px;
 }
 
 .hoverable:hover {
-  background-color: yellow;
+  opacity: .85;
+}
+
+
+#display-frame {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 25%;
+  width: 25%;
+  border: 2px solid black;
+  background-color: blue;
   opacity: .85;
 }
