@@ -1,0 +1,38 @@
+#map {
+  background-image: url('http://www.pleasantacres.com/wp-content/uploads/2016/04/PACMap2016-copy.png');
+  background-size: contain;
+  height: 380px;
+  width: 1000px;
+}
+
+#test {
+  height: 142px;
+  width:  190px;
+  display: block;
+}
+
+#test:hover {
+  background-image: url("http://www.pleasantacres.com/wp-content/themes/pleasantacres/img/logo-pleasant-acres.png");
+  background-size: cover;
+}
+
+#test-pond {
+  height: 142px;
+  width: 250px;
+}
+
+#pond {
+  height: 142px;
+  width:  190px;
+  display: block;
+}
+
+#pond:hover {
+  background-image: url("http://www.pleasantacres.com/wp-content/uploads/2015/08/gallery-06.jpg");
+  background-size: cover;  
+}
+
+.hoverable:hover {
+  background-color: yellow;
+  opacity: .85;
+}
