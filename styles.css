@@ -5,8 +5,12 @@
   width: 1000px;
 }
 
+tr {
+  margin-top: 3px;
+  height: 138px;
+}
+
 #test {
-  height: 142px;
   width:  190px;
   display: block;
 }
@@ -17,12 +21,10 @@
 }
 
 #test-pond {
-  height: 142px;
   width: 250px;
 }
 
 #pond {
-  height: 142px;
   width:  190px;
   display: block;
 }
