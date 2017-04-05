@@ -1,3 +1,10 @@
+#display {
+  background-image: none;
+  background-color: white;
+  opacity: .5;
+  z-index: 1;
+}
+
 #map {
   background-image: url('http://www.pleasantacres.com/wp-content/uploads/2016/04/PACMap2016-copy.png');
   background-size: contain;
@@ -5,18 +12,34 @@
   width: 2000px;
 }
 
-#test {
-  height: 284px;
-  width:  380px;
+#welcome {
+  height: 85px;
+  width:  280px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 37px;
+  left: 550px;
 }
 
-#test:hover .display-frame {
+#welcome:hover .display-frame {
   background-image: url("http://www.pleasantacres.com/wp-content/themes/pleasantacres/img/logo-pleasant-acres.png");
   background-size: cover;
   opacity: 1;
+  z-index: 2;
+}
+
+#site-2 {
+  height: 10px;
+  width:  27px;
+  position: absolute;
+  top: 515px;
+  left: 603px;
+}
+
+#site-2:hover .display-frame {
+  background-image: url("");
+  background-size: cover;
+  opacity: 1;
+  z-index: 2;
 }
 
 #pond {
@@ -26,16 +49,13 @@
   top: 150px;
   left: 915px;
   border-radius: 150% 150px 150px 150% ;
-  }
+}
 
 #pond:hover .display-frame {
   background-image: url("http://www.pleasantacres.com/wp-content/uploads/2015/08/gallery-06.jpg");
   background-size: cover;
   opacity: 1;
-}
-
-#display-hider:hover .display-frame {
-  opacity: 0;
+  z-index: 2;
 }
 
 .hoverable {
