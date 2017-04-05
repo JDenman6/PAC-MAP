@@ -34,6 +34,10 @@
   opacity: 1;
 }
 
+#display-hider:hover .display-frame {
+  opacity: 0;
+}
+
 .hoverable {
   margin-top: 4px;
 }
