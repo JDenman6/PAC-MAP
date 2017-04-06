@@ -27,6 +27,21 @@
   z-index: 2;
 }
 
+#pool {
+  height: 27px;
+  width:  48px;
+  position: absolute;
+  top: 460px;
+  left: 370px;
+}
+
+#pool:hover .display-frame {
+  background-image: url("http://www.pleasantacres.com/wp-content/uploads/2015/08/header-08.jpg");
+  background-size: cover;
+  opacity: 1;
+  z-index: 2;
+}
+
 #site-2 {
   height: 110px;
   width:  27px;
@@ -36,7 +51,7 @@
 }
 
 #site-2:hover .display-frame {
-  background-image: url("https://media.roverpass.com/pictures/images/000/025/749/medium/pleasant-acres-farm-campground-sussex-nj-2.png?1487435116");
+  background-image: url("https://media.roverpass.com/pictures/images/000/025/749/medium/pleasant-acres-farm-campground-sussex-nj-2.png");
   background-size: cover;
   opacity: 1;
   z-index: 2;
