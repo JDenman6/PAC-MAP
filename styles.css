@@ -42,6 +42,22 @@
   z-index: 2;
 }
 
+#hayride {
+  height: 50px;
+  width:  50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 432px;
+  left: 512px;
+}
+
+#hayride:hover .display-frame {
+  background-image: url("http://www.pleasantacres.com/wp-content/uploads/2015/08/header-hp.jpg");
+  background-size: cover;
+  opacity: 1;
+  z-index: 2;
+}
+
 #pond {
   height: 158px;
   width:  325px;
