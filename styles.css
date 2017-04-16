@@ -57,6 +57,21 @@
   z-index: 2;
 }
 
+#site-60 {
+  height: 30px;
+  width:  200px;
+  position: absolute;
+  bottom: 85px;
+  left: 972px;
+}
+
+#site-60:hover .display-frame {
+  background-image: url("http://www.pleasantacres.com/wp-content/uploads/2015/08/header-05.jpg");
+  background-size: cover;
+  opacity: 1;
+  z-index: 2;
+}
+
 #site-518 {
   height: 27px;
   width:  27px;
